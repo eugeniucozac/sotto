@@ -6,7 +6,7 @@ This is a profesional blog of a photographer
 
 In this project I used ReactJS, Gatsby and Contentful.
 
-[Sotto Blog](https://sotto.netlify.app/)
+[https://sotto.netlify.app/](https://sotto.netlify.app/)
 
 ### Installing
 
