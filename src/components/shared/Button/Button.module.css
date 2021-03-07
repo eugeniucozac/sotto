@@ -1,0 +1,26 @@
+.themeButton {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background: var(--red);
+  line-height: 30px;
+  font-size: 12px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--white-ff);
+  border-width: 1px;
+  text-align: center;
+  border: 1px solid var(--red);
+  -webkit-transition: var(--transition-3s);
+  transition: var(--transition-3s);
+}
+
+.themeButton:hover {
+  background: var(--white-ff);
+  color: var(--red);
+}

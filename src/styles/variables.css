@@ -1,0 +1,34 @@
+:root {
+  /* Fonts */
+  --primary-font: "Open Sans", serif;
+
+  /* Colours */
+  --white-ff: #fff;
+  --white-f9: #f9f9f9;
+  --white-f7: #f7f7f7;
+  --white-ef: #efefef;
+  --gray-9e: #9e9e9e;
+  --gray-73: #737373;
+  --gray-83: #838383;
+  --gray-5e: #5e5e5e;
+  --gray-4a: #4a4a4a;
+  --gray-80: #808080;
+  --blue: #21759b;
+  --black-1b: #1b222d;
+  --black-00: #000;
+  --black-33: #333;
+  --red: #d0344e;
+
+  --rgba-black-02: rgba(0, 0, 0, 0.02);
+  --rgba-black-60: rgba(0, 0, 0, 0.6);
+  --rgba-black-09: rgba(0, 0, 0, 0.09);
+  --rgba-black-70: rgba(22, 40, 44, 0.7);
+
+  --rgba-white: rgba(255, 255, 255, 0.9);
+
+  --transition-3s: all 0.3s ease-in-out;
+  --transition-5s: all 0.5s ease-in-out;
+  --transition-linear: all 0.3s linear;
+
+  --scale-3d: scale3D(1.1, 1.1, 1);
+}

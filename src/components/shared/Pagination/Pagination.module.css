@@ -1,0 +1,36 @@
+.pagination {
+  padding-top: 60px;
+  text-align: center !important;
+}
+
+.pagination ul {
+  margin: 0 -8px;
+  display: inline-block;
+}
+
+.pagination ul li {
+  float: left;
+  padding: 0 8px;
+}
+
+.pagination ul li a {
+  display: block;
+  padding: 4px 12px;
+  background: var(--white-ff);
+  -webkit-transition: var(--transition-3s);
+  transition: var(--transition-3s);
+}
+
+.active,
+.active:hover {
+  background: var(--red) !important;
+  color: var(--white-ff);
+  cursor: default;
+}
+
+@media (max-width: 991px) {
+  .pagination {
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+}

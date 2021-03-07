@@ -1,0 +1,95 @@
+.searchWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--rgba-white);
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0, 1);
+  -webkit-transition: var(--transition-5s);
+  transition: var(--transition-5s);
+}
+
+.searchWrapper > div:last-of-type {
+  height: 100%;
+}
+
+.closeButton {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  font-size: 35px;
+  background: transparent;
+  color: var(--white-ff);
+  cursor: pointer;
+}
+
+.closeButton:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.closeButton:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.closeButton:before,
+.closeButton:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 12px;
+  background: var(--red);
+}
+
+.searchWrapper form {
+  position: fixed;
+  top: 45%;
+  max-width: 70%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.greetingText {
+  text-align: center;
+  color: var(--black-33);
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-weight: 600;
+}
+
+.inputWrapper {
+  height: 90px;
+  position: relative;
+}
+
+.inputWrapper input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0;
+  background: transparent;
+  color: var(--black-33);
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: var(--transition-3s);
+  transition: var(--transition-3s);
+}
+
+@media (max-width: 575px) {
+  .inputWrapper input {
+    font-size: 20px;
+  }
+}

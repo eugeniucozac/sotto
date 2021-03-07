@@ -1,0 +1,35 @@
+.themeFooter {
+  text-align: center;
+  background: var(--white-ff);
+  padding: 60px 0 20px 0;
+  margin-top: 100px;
+}
+
+.themeFooter ul li {
+  display: inline-block;
+}
+
+.themeFooter ul li a {
+  font-size: 15px;
+  margin: 0 12px;
+  color: var(--red);
+}
+
+.text {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 5px 0 25px 0;
+  line-height: 28px;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+@media (max-width: 575px) {
+  .themeFooter {
+    margin-top: 20px;
+  }
+}
